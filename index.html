@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Packing Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8f9fa;
+        }
+        #game {
+            display: none;
+        }
+        .food-item {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+        }
+        #message {
+            margin-top: 20px;
+        }
+        #car {
+            width: 100px;
+            margin-top: 20px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Food Packing Game</h1>
+    <button id="startButton">Start Game</button>
+    <div id="game">
+        <div id="foodItems"></div>
+        <div id="message"></div>
+        <img id="car" src="car.png" alt="Car">
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
